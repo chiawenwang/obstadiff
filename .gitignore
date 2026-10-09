@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+env/
+
+# Data, checkpoints, weights (passed to scripts by path, not committed)
+*.npy
+*.npz
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.hdf5
+data/
+final_data*/
+interaction_library/
+checkpoints/
+runs/
+outputs/
+wandb/
+
+# Media / results
+*.mp4
+*.zip
+*.tar.gz
+
+# OS / editor
+.DS_Store
+*.swp

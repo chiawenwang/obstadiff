@@ -1,0 +1,35 @@
+# Tested with Python 3.9. Install torch==1.12.1 / torchvision==0.13.1 first
+# (see README) so pip picks the CUDA build that matches your driver.
+torch==1.12.1
+torchvision==0.13.1
+
+# Policy / training
+diffusers==0.11.1
+huggingface_hub==0.25.2  # diffusers 0.11.1 needs cached_download, removed in 0.26
+hydra-core==1.2.0
+omegaconf==2.2.3
+einops==0.4.1
+dill==0.3.5.1
+zarr==2.12.0
+numcodecs==0.10.2
+numba==0.56.4
+filelock==3.19.1
+threadpoolctl==3.1.0
+tqdm==4.64.1
+wandb==0.13.3
+pandas==2.2.3
+
+# Core numerics / vision
+numpy==1.23.3
+scipy==1.9.1
+opencv-contrib-python==4.6.0.66  # contrib build provides the CSRT tracker
+pillow==9.2.0
+ultralytics==8.4.54
+
+# Real-robot recording / deployment
+atomics==1.0.2
+pynput==1.7.6
+# ROS Noetic packages (rospy, sensor_msgs, geometry_msgs, nav_msgs, tf,
+# dynamic_reconfigure) and the Intera SDK (intera_interface, intera_core_msgs)
+# come from the ROS / Intera workspace, not pip.
+# Optional: segment-anything, only for the sam_vith segmenter backend.
