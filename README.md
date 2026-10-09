@@ -2,7 +2,7 @@
 
 Jiawen Wang, Kevin Yao, Khalid Jawed
 
-[**Paper**](https://arxiv.org/abs/2609.10918) · [**Project Website**](PLACEHOLDER_WEBSITE_URL) · [**Video**](PLACEHOLDER_VIDEO_URL)
+[**Paper**](https://arxiv.org/abs/2609.10918) · [**Project Website**](https://chiawenwang.github.io/obstadiff/) · [**Video**](PLACEHOLDER_VIDEO_URL)
 
 <!-- ![teaser](media/teaser.gif) -->
 
