@@ -1,0 +1,76 @@
+/* ObstaDiff additions to the template styles */
+.paper-figure {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0 auto 1rem;
+}
+
+.figure-caption {
+  color: #4a4a4a;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.publication-venue-line {
+  display: block;
+  font-weight: 600;
+  margin-top: 0.4rem;
+}
+
+.method-columns {
+  margin-top: 1.5rem;
+}
+
+.method-columns p {
+  line-height: 1.65;
+}
+
+.results-carousel .item img {
+  max-height: 560px;
+  object-fit: contain;
+  background: #fff;
+}
+
+.results-table {
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.results-table th,
+.results-table td {
+  text-align: center !important;
+  vertical-align: middle !important;
+  white-space: nowrap;
+}
+
+.results-table td:first-child,
+.results-table thead tr:first-child th:first-child {
+  text-align: left !important;
+}
+
+.results-table th.group {
+  border-bottom: 1px solid #b5b5b5;
+}
+
+.results-table tr.group-start td {
+  border-top: 2px solid #dbdbdb;
+}
+
+.results-table tr.ours td {
+  background: #edf7ee;
+}
+
+/* Keep the BibTeX block inside narrow screens */
+#BibTeX .container {
+  min-width: 0;
+  max-width: 100%;
+}
+
+#bibtex-code {
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-width: 100%;
+}
